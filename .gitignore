@@ -1,0 +1,17 @@
+# HA internals
+home-assistant_v2.db*
+*.log
+.storage/
+deps/
+backups/
+
+# Secrets
+secrets.yaml
+
+# HACS - exclude downloaded stuff
+custom_components/hacs/
+www/community/
+
+# MacOS cruft
+.DS_Store
+__pycache__/

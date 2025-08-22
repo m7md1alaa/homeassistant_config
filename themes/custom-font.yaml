@@ -1,0 +1,23 @@
+Super Custom Font:
+  # Old variables (for backwards compatibility)
+  primary-font-family: "Rubik"
+  paper-font-common-base_-_font-family: "Rubik"
+  mdc-typography-font-family: "Rubik"
+
+  # New HA frontend typography variables
+  ha-card-header-font-family: "Rubik, sans-serif"
+  ha-font-family-body: "Rubik, sans-serif"
+  ha-font-family-heading: "Rubik, sans-serif"
+  ha-font-family-code: "Rubik, monospace"
+  ha-font-family-longform: "Rubik, sans-serif"
+
+  # Optional: tweak weights
+  ha-font-weight-light: "300"
+  ha-font-weight-normal: "400"
+  ha-font-weight-medium: "500"
+  ha-font-weight-bold: "700"
+
+  material-h6-font-size: var(--ha-font-size-m)
+  material-small-font-size: var(--ha-font-size-xs)
+  material-caption-font-size: var(--ha-font-size-s)
+  material-button-font-size: var(--ha-font-size-xs)
