@@ -1,9 +1,29 @@
-2025-08-22 08:24:07.838 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-08-22 08:24:07.839 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-08-22 08:24:08.273 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
-2025-08-22 08:24:09.116 WARNING (ImportExecutor_0) [py.warnings] /usr/local/lib/python3.13/site-packages/google/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
-  __import__('pkg_resources').declare_namespace(__name__)
-
-2025-08-22 08:26:33.337 WARNING (SyncWorker_5) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-08-22 08:26:33.344 WARNING (SyncWorker_5) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-08-22 08:26:33.347 WARNING (SyncWorker_5) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-12-01 17:39:21.030 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-12-01 17:39:21.040 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ui_lovelace_minimalist which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-12-01 17:39:21.048 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-12-01 17:39:21.055 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-12-01 17:39:22.588 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2025-12-01 17:39:22.693 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=12 from 2025-12-01 14:15:07.729745)
+2025-12-01 17:39:27.334 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.base] HACS Frontend repo "light-entity-card" is already installed, Remove it or disable include custom cards
+2025-12-01 17:39:27.340 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.base] HACS Frontend repo "lovelace-card-mod" is already installed, Remove it or disable include custom cards
+2025-12-01 17:39:27.358 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.base] HACS Frontend repo "lovelace-auto-entities" is already installed, Remove it or disable include custom cards
+2025-12-01 17:39:27.365 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.base] HACS Frontend repo "mini-graph-card" is already installed, Remove it or disable include custom cards
+2025-12-01 17:39:27.373 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.base] HACS Frontend repo "mini-media-player" is already installed, Remove it or disable include custom cards
+2025-12-01 17:39:27.401 ERROR (MainThread) [custom_components.ui_lovelace_minimalist.base] HACS Frontend repo "weather-radar-card" is already installed, Remove it or disable include custom cards
+2025-12-01 17:39:27.413 ERROR (MainThread) [homeassistant] Error doing job: Future exception was never retrieved (None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/shutil.py", line 468, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ~~~~^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/util/loop.py", line 201, in protected_loop_func
+    return func(*args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/config/custom_components/ui_lovelace_minimalist/lovelace/translations/ar.yaml'
+2025-12-01 17:41:02.836 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-12-01 17:41:02.838 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration ui_lovelace_minimalist which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-12-01 17:41:02.839 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-12-01 17:41:02.840 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
